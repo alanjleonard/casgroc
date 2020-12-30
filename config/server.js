@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
 
   // PRODUCTION
   port: env.int('PORT', 1337),
-  url: 'https://casgroc-api.netlify.app/',
+  // url: 'https://casgroc-api.netlify.app/',
   //
   admin: {
     auth: {
